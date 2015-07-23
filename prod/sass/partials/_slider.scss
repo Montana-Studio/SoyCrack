@@ -1,0 +1,85 @@
+.swipe-all{
+	overflow: hidden;
+  	visibility: hidden;
+  	position: relative;
+  	width:100%;
+	padding:{top:60px;}
+	margin:{bottom:10px;}
+	@include gridle_clear();
+	z-index: 1;
+	@include gridle_state(phoness-min phoness){
+		padding:{top:10px;}
+	}
+	.swipe-wrap{
+		overflow: hidden;
+  		position: relative;
+		.content-slide{
+			background:{position:center;size:cover;};
+			@include gridle(12);
+			@include gridle_parent();
+			overflow: hidden;
+			position: relative;
+			min-height:375px;
+			@include gridle_state(desktopess){
+				min-height: 500px;
+			}
+			a{
+				text:{decoration:none;}
+				width:100%;
+				height: 100%;
+				display: block;
+				article{
+					width:60%;
+					bottom: -400px;
+					left:0;
+					right:0;
+					margin:0 auto;
+					position: absolute;
+					@extend .text-center;
+					background:{color:rgba(255,255,255,.8);}
+					padding:{top:10px;bottom:10px;}
+					main{
+						.cat_date{
+							color:$_seccolor;
+							font:{size:14px;}
+						}
+						.view_commen{
+							color:$_pricolor;
+							font:{size:11px;}
+						}
+						h2{
+							color:$_pricolor;
+							@extend .no-margins;
+							@extend .no-paddings;
+						}
+					}
+					opacity:0;
+					@include gridle_state(phoness-min phoness){
+						width:90%;
+					}
+				}
+			}
+		}
+	}
+	.btn_prev{
+		position: absolute;
+		left:2%;
+		top:50%;
+		width:30px;
+		height:30px;
+		color:#fff;
+		font: {size:40px;}
+		cursor: pointer;
+		&:hover{
+			color:$_seccolor;
+		}
+		
+	}
+	.btn_next{
+		@extend .btn_prev;
+		left:96%;
+		@include gridle_state(phoness-min){
+			left:90%;
+		}
+	}
+}
