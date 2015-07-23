@@ -3,8 +3,7 @@
 
 				<!-- copyright -->
 				<p class="copyright">
-					&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>. <?php _e('Powered by', 'html5blank'); ?>
-					<a href="//wordpress.org" title="WordPress">WordPress</a> &amp; <a href="//html5blank.com" title="HTML5 Blank">HTML5 Blank</a>.
+					&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>.
 				</p>
 				<!-- /copyright -->
 
@@ -33,6 +32,36 @@
 		<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.prettySocial.min.js"></script>
 		<script src="<?php echo get_template_directory_uri(); ?>/js/classie.js"></script>
 		<script src="<?php echo get_template_directory_uri(); ?>/js/main2.js"></script>
+<script>
+jQuery(document).ready(function($){
+function comparisonImageResizer() {
+var $width=$(".post-body").width();
+var $curHeight=window.comparisonImageHeight;//$("#comparison").height();
+if ($width<738)
+{
+$("#comparison").css({"width":$width+"px","height":$width/738*$curHeight+"px"});
+}
+}
 
+if($("#comparison").length != 0) {
+moveDivisor();
+window.comparisonImageHeight=$("#comparison").height();
+comparisonImageResizer();
+}
+
+$(window).resize(function() {
+if($("#comparison").length != 0) {
+comparisonImageResizer();
+}
+});
+});
+</script>
+
+		<!-- intersitial_SOYCRACK_ALL out-of-page -->
+		<div id='div-gpt-ad-1424965564276-0-oop'>
+		<script type='text/javascript'>
+		googletag.display('div-gpt-ad-1424965564276-0-oop');
+		</script>
+		</div>
 	</body>
 </html>

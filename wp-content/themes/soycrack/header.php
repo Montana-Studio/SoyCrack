@@ -13,7 +13,6 @@
 		<meta name='robots' content='noindex,follow' />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 		<meta name="google-site-verification" content="Ip3v7tAIvr-zM6SrN7IQusvQg-TgeBJmeskZRntv1NI" />
-
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/normalize.min.css">
 		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/main.css">
@@ -34,28 +33,154 @@
 
 		</script>
 
-		<script type='text/javascript'>
+		<script>
+		  window.fbAsyncInit = function() {
+		    FB.init({
+		      appId      : '1433939110256342',
+		      xfbml      : true,
+		      version    : 'v2.3'
+		    });
+		  };
+
+		  (function(d, s, id){
+		     var js, fjs = d.getElementsByTagName(s)[0];
+		     if (d.getElementById(id)) {return;}
+		     js = d.createElement(s); js.id = id;
+		     js.src = "//connect.facebook.net/en_US/sdk.js&status=0";
+		     fjs.parentNode.insertBefore(js, fjs);
+		   }(document, 'script', 'facebook-jssdk'));
+		</script>
+<script>
+function moveDivisor() {
+divisor = document.getElementById("divisor");
+slider = document.getElementById("slider");
+divisor.style.width = slider.value+"%";
+twentytwenty.style.left=slider.value+"%";
+}
+</script>
+<style>
+/* image comparison */
+div#comparison {
+overflow: hidden;
+position: relative;
+height:324px !important;
+}
+div#comparison figure {
+position: relative;
+background-size: cover; font-size: 0;
+width: 100%; height: 100%; margin: 0;
+}
+div#comparison figure > img {
+position: relative; width: 100%;
+}
+div#comparison figure #divisor {
+background-size: cover;
+position: absolute;
+width: 50%;
+overflow: hidden; bottom: 0; height: 100%;
+}
+div#comparison input[type=range]{
+-webkit-appearance:none;
+-moz-appearance:none;
+background-color: rgba(0,0,0,0.0);
+top: 0px; left: 0px;
+width: 100%; height: 100%;
+margin: 0; padding: 0;
+position: absolute;
+cursor:move;
+}
+div#comparison input[type=range]:focus { outline: none; }
+div#comparison input[type=range]:active { outline: none; }
+div#comparison input[type=range]::-moz-range-track {
+-moz-appearance:none;
+height:0px;
+width: 0px;
+overflow:hidden;
+display:none;
+}
+div#comparison input[type=range]::-moz-range-thumb {
+-moz-appearance: none;
+width: 0px; height: 0px;
+border: 0;
+display: none;
+}
+div#comparison input[type=range]::-webkit-slider-thumb {
+-webkit-appearance:none;
+width: 0px; height: 0px;
+}
+div#comparison .twentytwenty-handle {
+pointer-events: none;
+height: 38px;
+width: 38px;
+position: absolute;
+cursor: move;
+left: 50%;
+top: 50%;
+margin-left: -21px;
+margin-top: -21px;
+border: 2px solid gainsboro;
+-webkit-border-radius: 1000px;
+-moz-border-radius: 1000px;
+border-radius: 1000px;
+}
+div#comparison .twentytwenty-container * {
+-webkit-box-sizing: content-box;
+-moz-box-sizing: content-box;
+box-sizing: content-box;
+}
+div#comparison .twentytwenty-handle:before, div#comparison .twentytwenty-handle:after {
+content: " ";
+display: block;
+width: 2px;
+background: gainsboro;
+height: 9999px;
+position: absolute;
+left: 50%;
+margin-left: -1px;
+}
+div#comparison .twentytwenty-handle:before {
+bottom: 50%;
+margin-bottom: 21px;
+}
+div#comparison .twentytwenty-handle:after {
+top: 50%;
+margin-top: 21px;
+}
+div#comparison .twentytwenty-left-arrow, div#comparison .twentytwenty-right-arrow {
+width: 0;
+height: 0;
+border: 6px inset transparent;
+position: absolute;
+top: 50%;
+margin-top: -6px;
+}
+div#comparison .twentytwenty-left-arrow {
+border-right: 6px solid gainsboro;
+left: 50%;
+margin-left: -17px;
+}
+div#comparison .twentytwenty-right-arrow {
+border-left: 6px solid gainsboro;
+right: 50%;
+margin-right: -17px;
+}
+</style>
+	
+	<script type='text/javascript'>
 		(function() {
 		var useSSL = 'https:' == document.location.protocol;
 		var src = (useSSL ? 'https:' : 'http:') +
 		'//www.googletagservices.com/tag/js/gpt.js';
 		document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
 		})();
-		</script>
+	</script>
 
-		<script type='text/javascript'>
+	<script type='text/javascript'>
 		googletag.defineOutOfPageSlot('/92947493/intersitial_SOYCRACK_ALL', 'div-gpt-ad-1424965564276-0-oop').addService(googletag.pubads());
 		googletag.pubads().enableSyncRendering();
 		googletag.enableServices();
-		</script>
-		<script>
-			jQuery(document).ready(function($){
-				$(window).load(function(){
-					$('#div-gpt-ad-1424965564276-0-oop').fadeIn();
-				});
-			});
-		</script>
-	</head>
+	</script>	
+</head>
 
 	<body <?php body_class(); ?>>
 		
@@ -67,13 +192,14 @@
 			</script>
 		</div>
 
-		<!-- intersitial_SOYCRACK_ALL out-of-page -->
-		<div id='div-gpt-ad-1424965564276-0-oop' style="display:none;">
-		<script type='text/javascript'>
-		googletag.display('div-gpt-ad-1424965564276-0-oop');
-		</script>
-		</div>
+		<div style="width: 970px;clear: both;margin: 0 auto;">
+			
+			<script type='text/javascript' src='http://www.googletagservices.com/tag/js/gpt.js'>
+			  googletag.pubads().definePassback('/92947493/970x250_SOYCRACK_ALL', [970, 250]).display();
+			</script>
 
+		</div>
+			
 		<header class="scroll-view nav-down">
 			
 			<main class="tools">
@@ -81,7 +207,7 @@
 				<div class="btn-menu"><i class="fa fa-navicon"></i></div>
 
 			</main>
-
+			
 			<!-- logo -->
 			<div class="logo">
 				<a href="<?php echo home_url(); ?>">
