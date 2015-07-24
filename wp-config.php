@@ -16,13 +16,13 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'soycrack');
+define('DB_NAME', 'soycrack_main');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', 'soycrack_user');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'root');
+define('DB_PASSWORD', 'miw3lwZ[f*3P');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
