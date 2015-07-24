@@ -117,7 +117,7 @@
 								the_title();
 							} ?>
 						</h2>
-						<small class="cat_date"><?php foreach((get_the_category()) as $category) { if ($category->cat_name != 'destacados' and $category->cat_name != 'galeria') {echo $category->name ;}} ?> / <?php the_timee('M, j'); ?></small>
+						<small class="cat_date"><?php foreach((get_the_category()) as $category) { if ($category->cat_name != 'destacados' and $category->cat_name != 'galeria') {echo $category->name ;}} ?> / <?php the_time('M, j'); ?></small>
 
 					</a>
 					<ul class="share_btns">
