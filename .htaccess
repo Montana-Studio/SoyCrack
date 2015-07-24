@@ -40,3 +40,4 @@ RewriteRule . /~soycrack/index.php [L]
     RewriteRule .* "/home/soycrack/public_html/wp-content/cache/page_enhanced/%{HTTP_HOST}/%{REQUEST_URI}/_index%{ENV:W3TC_PREVIEW}.html%{ENV:W3TC_ENC}" [L]
 </IfModule>
 # END W3TC Page Cache core
+
