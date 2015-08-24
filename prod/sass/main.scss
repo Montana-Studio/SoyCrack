@@ -1,4 +1,10 @@
-@import 'grid-settings';
+// Import grid settings :
+//@import 'partials/grid-settings';
+@import '../../bower_components/gridle/sass/grid-settings';
+
+// Generate classes :
+@include gridle_generate_classes();
+
 @import 'bourbon';
 
 @import 'partials/responsive';
@@ -10,3 +16,4 @@
 @import 'partials/wrap';
 @import 'partials/slider';
 @import 'partials/header';
+ 

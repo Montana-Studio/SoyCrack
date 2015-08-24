@@ -495,6 +495,136 @@ html{
 						}
 					}
 				}
+				.sidebar-newsletter-sc {
+					box-sizing:border-box; 
+					border:solid #ccc 1px;
+					width: 300px;
+					height: auto;
+					margin:{bottom:10px;}
+					padding: 10px;
+					h2 {
+						@extend .no-margins;
+						font:{family:$_fontfamily;}
+						color:$_seccolor;
+					}
+					.form-news {
+						@extend .no-paddings;
+						.mymail-form  {
+							@extend .no-margins;
+							.mymail-wrapper {
+								&.mymail-email-wrapper {
+									@extend .no-paddings;
+									margin:{bottom:5px;}
+									label {
+										color:$_pricolor;
+										font:{size: 15px;}
+										span {
+											&.required {
+												color:$_seccolor !important;
+											}
+										}
+									}
+									input {
+										outline: none;
+										@include placeholder {
+											padding:2px;
+											color: $_pricolor;
+										}
+									}	
+								}	
+								&.mymail-firstname-wrapper {
+									@extend .no-paddings;
+									margin:{bottom:10px;}
+									label {
+										color:$_pricolor;
+										font:{size: 15px;}
+										span {
+											&.required {
+												color:$_seccolor !important;
+											}
+										}
+									}
+									input {
+										outline: none;
+										@include placeholder {
+											padding:2px;
+											color: $_pricolor;
+										}
+									}
+								}
+								&.mymail-submit-wrapper {
+									&.form-submit {
+										width: 94px;
+										height: 30px;
+										@extend .no-paddings;
+										@include gridle_float(none);
+										margin:0 auto;
+										display: block;
+										input {
+											@include gridle(12);
+											@extend .no-margins;
+											@include gridle_float(none);
+											background-image: url('../img/btn-soycrack.svg');
+											border: 0;
+											height: inherit;
+											font:{size: 11px;}
+											text:{align: left;}
+											padding: 0 5px !important; 
+											outline: none;
+										}
+										span {
+											display: none;
+											visibility: hidden;
+										}
+									}	
+								}	
+							}	
+							.mymail-form-info {
+								&.error {
+									border:solid #ccc 1px;
+									background: none;
+									border-radius:0;
+									text:{align:center;}
+									p {
+										@extend .no-margins;
+										color:$_seccolor;
+									}
+									ul {
+										@extend .no-margins;
+										@extend .no-paddings;
+										li {
+											color:$_seccolor !important;
+											font:{weight:bold;}
+										}
+									}
+								}
+								&.success {
+									border:solid #ccc 1px;
+									background: none;
+									border-radius:0;
+									text:{align:center;}
+									p {
+										@extend .no-margins;
+										color:$_seccolor;
+									}
+									ul {
+										@extend .no-margins;
+										@extend .no-paddings;
+										li {
+											color:$_seccolor !important;
+											font:{weight:bold;}
+										}
+									}
+								}
+							}	
+							.error {
+								.input {
+									border:solid 1px $_seccolor !important;
+								}
+							}
+						}
+					}
+				}
 			}
 			.footer{
 				@include gridle(12);

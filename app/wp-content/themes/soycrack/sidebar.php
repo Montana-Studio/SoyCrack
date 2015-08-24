@@ -1,6 +1,13 @@
 <!-- sidebar -->
 <aside class="sidebar" role="complementary">
 
+	<div class="sidebar-newsletter-sc">
+		<h2>Newsletter</h2>
+		<div class="form-news">
+			<?php echo do_shortcode('[newsletter_signup_form id=0]' ); ?>
+		</div>
+	</div>
+
 	<?php // get_template_part('searchform'); ?>
 	
 	<div class="sidebar-widget">
