@@ -1,0 +1,91 @@
+.unsuscribe-content {
+	@include gridle(8);
+	@include gridle(10, tabless-md);
+	@include gridle(12, phoness);
+	@include gridle_float(none);
+	display: block;
+	margin: 0 auto;
+	padding:{top:100px; bottom:280px;}
+	@include gridle_state(tabless-md) {
+		padding:{top:100px; bottom:100px;}
+	}
+	@include gridle_state(phoness) {
+		padding:{top:100px; bottom:200px;}
+	}
+	@include gridle_state(phoness-min) {
+		padding:{top:20px; bottom:20px;}
+	}
+	h1 {
+		text:{transform:uppercase;align:center;}
+		font:{family:$_fontfamily;}
+		color:$_pricolor;
+	}
+	.pln {
+		font:{size:25px;}
+		color:$_pricolor;
+		text:{align:center;}
+		line-height: 25px;
+		@include gridle_state(phoness-min) {
+			font:{size:20px;}
+			line-height: 22px;
+		}
+	}
+	.mymail-form-unsubscribe {
+		.mymail-wrapper {
+			&.mymail-email-wrapper {
+				margin:{top:10px;}
+				label {
+					font:{size:15px;}
+					color:$_pricolor;
+					line-height: 15px;
+					span {
+						color:$_seccolor;
+					}
+				}
+				input {
+					padding: 6px 4px;
+					margin: {top:5px; bottom:10px;}
+					outline: none;
+				}
+			}
+			&.form-submit {
+				.submit-button {
+					@extend .no-margins;
+					@include gridle_float(none);
+					background:{image: url('../img/btn-soycrack.svg');size: 100%;}
+					border: 0;
+					height: inherit;
+					font:{size: 14px;}
+					text:{align: left;}
+					padding: 0 5px !important; 
+					outline: none;
+					width: 123px;
+					height: 39px;
+				}
+				span {
+					display: none;
+					visibility: hidden;
+				}
+			}
+		}
+		.mymail-form-info {
+			&.error {
+				border:1px solid $_pricolor;
+				border-radius: 0;
+				background:none;
+				color: $_pricolor;
+				padding:10px;
+				margin:{top:10px;bottom:10px;}
+			}
+			&.success {
+				border:1px solid $_seccolor;
+				border-radius: 0;
+				background:none;
+				color: $_seccolor;
+				padding:10px;
+				font:{weight:bold;}
+				margin:{top:10px;bottom:10px;}
+			}
+		}
+	}			
+}

@@ -25,7 +25,7 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-.grid-1on5, .grid-0, .grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10, .grid-11, .grid-12, .grid-mobile-1on5, .grid-mobile-0, .grid-mobile-1, .grid-mobile-2, .grid-mobile-3, .grid-mobile-4, .grid-mobile-5, .grid-mobile-6, .grid-mobile-7, .grid-mobile-8, .grid-mobile-9, .grid-mobile-10, .grid-mobile-11, .grid-mobile-12, .grid-tablet-1on5, .grid-tablet-0, .grid-tablet-1, .grid-tablet-2, .grid-tablet-3, .grid-tablet-4, .grid-tablet-5, .grid-tablet-6, .grid-tablet-7, .grid-tablet-8, .grid-tablet-9, .grid-tablet-10, .grid-tablet-11, .grid-tablet-12, .grid-ipad-landscape-1on5, .grid-ipad-landscape-0, .grid-ipad-landscape-1, .grid-ipad-landscape-2, .grid-ipad-landscape-3, .grid-ipad-landscape-4, .grid-ipad-landscape-5, .grid-ipad-landscape-6, .grid-ipad-landscape-7, .grid-ipad-landscape-8, .grid-ipad-landscape-9, .grid-ipad-landscape-10, .grid-ipad-landscape-11, .grid-ipad-landscape-12, html body .wrapper .content-destacado .destacados, html body .wrapper .all-content .wrapper-index, html body .wrapper .all-content .wrapper-index .postes, html body .wrapper .all-content .wrapper-index .pagination, html body .wrapper .wrapper-inner, html body .wrapper .wrapper-inner .wrapper-normal-post .imagen-single, html body .wrapper .wrapper-inner .wrapper-normal-post .content, html body .wrapper .wrapper-inner .wrapper-normal-post .wrapper, html body .wrapper .wrapper-inner .wrapper-normal-post .content .meta-bottom-post, html body .wrapper .wrapper-inner .wrapper-normal-post .wrapper .meta-bottom-post, html body .wrapper .wrapper-inner .wrapper-estandar-post .tit-inner-content, html body .wrapper .wrapper-inner .wrapper-gallery-post .tit-inner-content, html body .wrapper .wrapper-inner .wrapper-estandar-post .imagen-single, html body .wrapper .wrapper-inner .wrapper-gallery-post .imagen-single, html body .wrapper .wrapper-inner .wrapper-estandar-post .content, html body .wrapper .wrapper-inner .wrapper-gallery-post .content, html body .wrapper .wrapper-inner .wrapper-estandar-post .wrapper, html body .wrapper .wrapper-inner .wrapper-gallery-post .wrapper, html body .wrapper .wrapper-inner .wrapper-estandar-post .content .share_btns, html body .wrapper .wrapper-inner .wrapper-gallery-post .content .share_btns, html body .wrapper .wrapper-inner .wrapper-estandar-post .wrapper .share_btns, html body .wrapper .wrapper-inner .wrapper-gallery-post .wrapper .share_btns, html body .wrapper .wrapper-inner .wrapper-estandar-post .content .meta-bottom-post, html body .wrapper .wrapper-inner .wrapper-gallery-post .content .meta-bottom-post, html body .wrapper .wrapper-inner .wrapper-estandar-post .wrapper .meta-bottom-post, html body .wrapper .wrapper-inner .wrapper-gallery-post .wrapper .meta-bottom-post, html body .wrapper .wrapper-inner .wrapper-gallery-post .content .parrafo, html body .wrapper .wrapper-inner .wrapper-gallery-post .wrapper .parrafo, html body .wrapper .sidebar, html body .wrapper .sidebar .popular-posts .wpp-list li, html body .wrapper .sidebar .sidebar-newsletter-sc .form-news .mymail-form .mymail-wrapper.mymail-submit-wrapper.form-submit input, html body .wrapper .footer, html body.contacto .wrapper .pages-template .cont-contact, html body.contacto .wrapper .pages-template .cont-form, .swipe-all .swipe-wrap .content-slide, .header .tools, .scroll-view .tools, .header .tools .btn-menu, .scroll-view .tools .btn-menu, .header .tools .logo_mobile-norm, .scroll-view .tools .logo_mobile-norm, .header .tools .social, .scroll-view .tools .social, .scroll-view .logo, .scroll-view .nav, .scroll-view .social {
+.grid-1on5, .grid-0, .grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10, .grid-11, .grid-12, .grid-mobile-1on5, .grid-mobile-0, .grid-mobile-1, .grid-mobile-2, .grid-mobile-3, .grid-mobile-4, .grid-mobile-5, .grid-mobile-6, .grid-mobile-7, .grid-mobile-8, .grid-mobile-9, .grid-mobile-10, .grid-mobile-11, .grid-mobile-12, .grid-tablet-1on5, .grid-tablet-0, .grid-tablet-1, .grid-tablet-2, .grid-tablet-3, .grid-tablet-4, .grid-tablet-5, .grid-tablet-6, .grid-tablet-7, .grid-tablet-8, .grid-tablet-9, .grid-tablet-10, .grid-tablet-11, .grid-tablet-12, .grid-ipad-landscape-1on5, .grid-ipad-landscape-0, .grid-ipad-landscape-1, .grid-ipad-landscape-2, .grid-ipad-landscape-3, .grid-ipad-landscape-4, .grid-ipad-landscape-5, .grid-ipad-landscape-6, .grid-ipad-landscape-7, .grid-ipad-landscape-8, .grid-ipad-landscape-9, .grid-ipad-landscape-10, .grid-ipad-landscape-11, .grid-ipad-landscape-12, html body .wrapper .content-destacado .destacados, html body .wrapper .all-content .wrapper-index, html body .wrapper .all-content .wrapper-index .postes, html body .wrapper .all-content .wrapper-index .pagination, html body .wrapper .wrapper-inner, html body .wrapper .wrapper-inner .wrapper-normal-post .imagen-single, html body .wrapper .wrapper-inner .wrapper-normal-post .content, html body .wrapper .wrapper-inner .wrapper-normal-post .wrapper, html body .wrapper .wrapper-inner .wrapper-normal-post .content .meta-bottom-post, html body .wrapper .wrapper-inner .wrapper-normal-post .wrapper .meta-bottom-post, html body .wrapper .wrapper-inner .wrapper-estandar-post .tit-inner-content, html body .wrapper .wrapper-inner .wrapper-gallery-post .tit-inner-content, html body .wrapper .wrapper-inner .wrapper-estandar-post .imagen-single, html body .wrapper .wrapper-inner .wrapper-gallery-post .imagen-single, html body .wrapper .wrapper-inner .wrapper-estandar-post .content, html body .wrapper .wrapper-inner .wrapper-gallery-post .content, html body .wrapper .wrapper-inner .wrapper-estandar-post .wrapper, html body .wrapper .wrapper-inner .wrapper-gallery-post .wrapper, html body .wrapper .wrapper-inner .wrapper-estandar-post .content .share_btns, html body .wrapper .wrapper-inner .wrapper-gallery-post .content .share_btns, html body .wrapper .wrapper-inner .wrapper-estandar-post .wrapper .share_btns, html body .wrapper .wrapper-inner .wrapper-gallery-post .wrapper .share_btns, html body .wrapper .wrapper-inner .wrapper-estandar-post .content .meta-bottom-post, html body .wrapper .wrapper-inner .wrapper-gallery-post .content .meta-bottom-post, html body .wrapper .wrapper-inner .wrapper-estandar-post .wrapper .meta-bottom-post, html body .wrapper .wrapper-inner .wrapper-gallery-post .wrapper .meta-bottom-post, html body .wrapper .wrapper-inner .wrapper-gallery-post .content .parrafo, html body .wrapper .wrapper-inner .wrapper-gallery-post .wrapper .parrafo, html body .wrapper .sidebar, html body .wrapper .sidebar .popular-posts .wpp-list li, html body .wrapper .sidebar .sidebar-newsletter-sc .form-news .mymail-form .mymail-wrapper.mymail-submit-wrapper.form-submit input, html body .wrapper .footer, html body.contacto .wrapper .pages-template .cont-contact, html body.contacto .wrapper .pages-template .cont-form, .swipe-all .swipe-wrap .content-slide, .header .tools, .scroll-view .tools, .header .tools .btn-menu, .scroll-view .tools .btn-menu, .header .tools .logo_mobile-norm, .scroll-view .tools .logo_mobile-norm, .header .tools .social, .scroll-view .tools .social, .scroll-view .logo, .scroll-view .nav, .scroll-view .social, .unsuscribe-content {
   display: inline-block;
   min-height: 1px;
   -webkit-box-sizing: border-box;
@@ -1513,7 +1513,7 @@
 .oculto {
   display: none; }
 
-.no-margins, .listas ul, html body .wrapper .content-destacado ul, .header .nav ul, .scroll-view .nav ul, .header .tools ul, .scroll-view .tools ul, .scroll-view ul, .menu-wrap .menu-lateral .bottom-side ul, .listas ul li, html body .wrapper .content-destacado ul li, .header .nav ul li, .scroll-view .nav ul li, .header .tools ul li, .scroll-view .tools ul li, .scroll-view ul li, .menu-wrap .menu-lateral .bottom-side ul li, html body .wrapper .content-destacado .destacados a h2, html body .wrapper .content-destacado .destacados .share_btns, html body .wrapper .content-destacado .destacados .share_btns li, html body .wrapper .all-content .wrapper-index .postes .post-content a h2, html body .wrapper .all-content .wrapper-index .postes .post-content .share_btns, html body .wrapper .all-content .wrapper-index .postes .post-content .share_btns li, html body .wrapper .wrapper-inner .wrapper-normal-post .content .parrafo .share_btns, html body .wrapper .wrapper-inner .wrapper-normal-post .wrapper .parrafo .share_btns, html body .wrapper .wrapper-inner .wrapper-normal-post .content .parrafo .share_btns li, html body .wrapper .wrapper-inner .wrapper-normal-post .wrapper .parrafo .share_btns li, html body .wrapper .wrapper-inner .wrapper-estandar-post .content .share_btns, html body .wrapper .wrapper-inner .wrapper-gallery-post .content .share_btns, html body .wrapper .wrapper-inner .wrapper-estandar-post .wrapper .share_btns, html body .wrapper .wrapper-inner .wrapper-gallery-post .wrapper .share_btns, html body .wrapper .wrapper-inner .wrapper-estandar-post .content .share_btns li, html body .wrapper .wrapper-inner .wrapper-gallery-post .content .share_btns li, html body .wrapper .wrapper-inner .wrapper-estandar-post .wrapper .share_btns li, html body .wrapper .wrapper-inner .wrapper-gallery-post .wrapper .share_btns li, html body .wrapper .sidebar .popular-posts .wpp-list, html body .wrapper .sidebar .popular-posts .wpp-list li .content-destaca p, html body .wrapper .sidebar .sidebar-newsletter-sc h2, html body .wrapper .sidebar .sidebar-newsletter-sc .form-news .mymail-form, html body .wrapper .sidebar .sidebar-newsletter-sc .form-news .mymail-form .mymail-wrapper.mymail-submit-wrapper.form-submit input, html body .wrapper .sidebar .sidebar-newsletter-sc .form-news .mymail-form .mymail-form-info.error p, html body .wrapper .sidebar .sidebar-newsletter-sc .form-news .mymail-form .mymail-form-info.error ul, html body .wrapper .sidebar .sidebar-newsletter-sc .form-news .mymail-form .mymail-form-info.success p, html body .wrapper .sidebar .sidebar-newsletter-sc .form-news .mymail-form .mymail-form-info.success ul, .swipe-all .swipe-wrap .content-slide a article main h2 {
+.no-margins, .listas ul, html body .wrapper .content-destacado ul, .header .nav ul, .scroll-view .nav ul, .header .tools ul, .scroll-view .tools ul, .scroll-view ul, .menu-wrap .menu-lateral .bottom-side ul, .listas ul li, html body .wrapper .content-destacado ul li, .header .nav ul li, .scroll-view .nav ul li, .header .tools ul li, .scroll-view .tools ul li, .scroll-view ul li, .menu-wrap .menu-lateral .bottom-side ul li, html body .wrapper .content-destacado .destacados a h2, html body .wrapper .content-destacado .destacados .share_btns, html body .wrapper .content-destacado .destacados .share_btns li, html body .wrapper .all-content .wrapper-index .postes .post-content a h2, html body .wrapper .all-content .wrapper-index .postes .post-content .share_btns, html body .wrapper .all-content .wrapper-index .postes .post-content .share_btns li, html body .wrapper .wrapper-inner .wrapper-normal-post .content .parrafo .share_btns, html body .wrapper .wrapper-inner .wrapper-normal-post .wrapper .parrafo .share_btns, html body .wrapper .wrapper-inner .wrapper-normal-post .content .parrafo .share_btns li, html body .wrapper .wrapper-inner .wrapper-normal-post .wrapper .parrafo .share_btns li, html body .wrapper .wrapper-inner .wrapper-estandar-post .content .share_btns, html body .wrapper .wrapper-inner .wrapper-gallery-post .content .share_btns, html body .wrapper .wrapper-inner .wrapper-estandar-post .wrapper .share_btns, html body .wrapper .wrapper-inner .wrapper-gallery-post .wrapper .share_btns, html body .wrapper .wrapper-inner .wrapper-estandar-post .content .share_btns li, html body .wrapper .wrapper-inner .wrapper-gallery-post .content .share_btns li, html body .wrapper .wrapper-inner .wrapper-estandar-post .wrapper .share_btns li, html body .wrapper .wrapper-inner .wrapper-gallery-post .wrapper .share_btns li, html body .wrapper .sidebar .popular-posts .wpp-list, html body .wrapper .sidebar .popular-posts .wpp-list li .content-destaca p, html body .wrapper .sidebar .sidebar-newsletter-sc h2, html body .wrapper .sidebar .sidebar-newsletter-sc .form-news .mymail-form, html body .wrapper .sidebar .sidebar-newsletter-sc .form-news .mymail-form .mymail-wrapper.mymail-submit-wrapper.form-submit input, html body .wrapper .sidebar .sidebar-newsletter-sc .form-news .mymail-form .mymail-form-info.error p, html body .wrapper .sidebar .sidebar-newsletter-sc .form-news .mymail-form .mymail-form-info.error ul, html body .wrapper .sidebar .sidebar-newsletter-sc .form-news .mymail-form .mymail-form-info.success p, html body .wrapper .sidebar .sidebar-newsletter-sc .form-news .mymail-form .mymail-form-info.success ul, .swipe-all .swipe-wrap .content-slide a article main h2, .unsuscribe-content .mymail-form-unsubscribe .mymail-wrapper.form-submit .submit-button {
   margin: 0; }
 
 .no-paddings, .listas ul, html body .wrapper .content-destacado ul, .header .nav ul, .scroll-view .nav ul, .header .tools ul, .scroll-view .tools ul, .scroll-view ul, .menu-wrap .menu-lateral .bottom-side ul, .listas ul li, html body .wrapper .content-destacado ul li, .header .nav ul li, .scroll-view .nav ul li, .header .tools ul li, .scroll-view .tools ul li, .scroll-view ul li, .menu-wrap .menu-lateral .bottom-side ul li, html body .wrapper .content-destacado .destacados a h2, html body .wrapper .content-destacado .destacados .share_btns, html body .wrapper .content-destacado .destacados .share_btns li, html body .wrapper .all-content .wrapper-index .postes .post-content a h2, html body .wrapper .all-content .wrapper-index .postes .post-content .share_btns, html body .wrapper .all-content .wrapper-index .postes .post-content .share_btns li, html body .wrapper .wrapper-inner .wrapper-normal-post .content .parrafo .share_btns, html body .wrapper .wrapper-inner .wrapper-normal-post .wrapper .parrafo .share_btns, html body .wrapper .wrapper-inner .wrapper-normal-post .content .parrafo .share_btns li, html body .wrapper .wrapper-inner .wrapper-normal-post .wrapper .parrafo .share_btns li, html body .wrapper .wrapper-inner .wrapper-estandar-post .content .share_btns, html body .wrapper .wrapper-inner .wrapper-gallery-post .content .share_btns, html body .wrapper .wrapper-inner .wrapper-estandar-post .wrapper .share_btns, html body .wrapper .wrapper-inner .wrapper-gallery-post .wrapper .share_btns, html body .wrapper .wrapper-inner .wrapper-estandar-post .content .share_btns li, html body .wrapper .wrapper-inner .wrapper-gallery-post .content .share_btns li, html body .wrapper .wrapper-inner .wrapper-estandar-post .wrapper .share_btns li, html body .wrapper .wrapper-inner .wrapper-gallery-post .wrapper .share_btns li, html body .wrapper .wrapper-inner .wrapper-gallery-post .content .parrafo .swipe-all, html body .wrapper .wrapper-inner .wrapper-gallery-post .wrapper .parrafo .swipe-all, html body .wrapper .sidebar .popular-posts .wpp-list, html body .wrapper .sidebar .popular-posts .wpp-list li .content-destaca p, html body .wrapper .sidebar .sidebar-newsletter-sc .form-news, html body .wrapper .sidebar .sidebar-newsletter-sc .form-news .mymail-form .mymail-wrapper.mymail-email-wrapper, html body .wrapper .sidebar .sidebar-newsletter-sc .form-news .mymail-form .mymail-wrapper.mymail-firstname-wrapper, html body .wrapper .sidebar .sidebar-newsletter-sc .form-news .mymail-form .mymail-wrapper.mymail-submit-wrapper.form-submit, html body .wrapper .sidebar .sidebar-newsletter-sc .form-news .mymail-form .mymail-form-info.error ul, html body .wrapper .sidebar .sidebar-newsletter-sc .form-news .mymail-form .mymail-form-info.success ul, .swipe-all .swipe-wrap .content-slide a article main h2 {
@@ -2940,5 +2940,94 @@ html body {
 
 .nav-up {
   top: 0; }
+
+.unsuscribe-content {
+  float: left;
+  direction: ltr;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 66.66667%;
+  width: 83.33333%;
+  float: none;
+  display: block;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 280px;
+  padding-top: 100px;
+  padding-bottom: 100px; }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    .unsuscribe-content {
+      padding-left: 0;
+      padding-right: 0; } }
+  @media screen and (max-width: 800px) {
+    .unsuscribe-content {
+      width: 100%; } }
+  @media screen and (max-width: 800px) {
+    .unsuscribe-content {
+      padding-top: 100px;
+      padding-bottom: 200px; } }
+  @media screen and (max-width: 480px) {
+    .unsuscribe-content {
+      padding-top: 20px;
+      padding-bottom: 20px; } }
+  .unsuscribe-content h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    color: #333; }
+  .unsuscribe-content .pln {
+    font-size: 25px;
+    color: #333;
+    text-align: center;
+    line-height: 25px; }
+    @media screen and (max-width: 480px) {
+      .unsuscribe-content .pln {
+        font-size: 20px;
+        line-height: 22px; } }
+  .unsuscribe-content .mymail-form-unsubscribe .mymail-wrapper.mymail-email-wrapper {
+    margin-top: 10px; }
+    .unsuscribe-content .mymail-form-unsubscribe .mymail-wrapper.mymail-email-wrapper label {
+      font-size: 15px;
+      color: #333;
+      line-height: 15px; }
+      .unsuscribe-content .mymail-form-unsubscribe .mymail-wrapper.mymail-email-wrapper label span {
+        color: #18BB9B; }
+    .unsuscribe-content .mymail-form-unsubscribe .mymail-wrapper.mymail-email-wrapper input {
+      padding: 6px 4px;
+      margin-top: 5px;
+      margin-bottom: 10px;
+      outline: none; }
+  .unsuscribe-content .mymail-form-unsubscribe .mymail-wrapper.form-submit .submit-button {
+    float: none;
+    background-image: url("../img/btn-soycrack.svg");
+    background-size: 100%;
+    border: 0;
+    height: inherit;
+    font-size: 14px;
+    text-align: left;
+    padding: 0 5px !important;
+    outline: none;
+    width: 123px;
+    height: 39px; }
+  .unsuscribe-content .mymail-form-unsubscribe .mymail-wrapper.form-submit span {
+    display: none;
+    visibility: hidden; }
+  .unsuscribe-content .mymail-form-unsubscribe .mymail-form-info.error {
+    border: 1px solid #333;
+    border-radius: 0;
+    background: none;
+    color: #333;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+  .unsuscribe-content .mymail-form-unsubscribe .mymail-form-info.success {
+    border: 1px solid #18BB9B;
+    border-radius: 0;
+    background: none;
+    color: #18BB9B;
+    padding: 10px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px; }
 
 /*# sourceMappingURL=main.css.map */
