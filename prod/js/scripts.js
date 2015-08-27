@@ -90,5 +90,23 @@
 			});
 		});
 	});
-	
+
+	$(window).scroll(function() {
+
+	    if ($(this).scrollTop()>1200)
+	     {
+	        $('.bg-newsletter').show();
+	        $('.newsletter-new-suscribe').show();
+	     }
+	 });
+
+	$('.close-button').click(function(){
+	    $('.newsletter-new-suscribe').remove();
+	    $('.bg-newsletter').remove();
+	});
+		
 })(jQuery, this);
+
+
+
+
