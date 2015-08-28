@@ -64,7 +64,7 @@
 							</div>
 
 							<div class="box-popups box-form">
-								<div><?php echo do_shortcode('[newsletter_signup_form id=0]'); ?></div>
+								<div><?php the_field('form_suscriptores'); ?></div>
 							</div>
 
 						</div>
