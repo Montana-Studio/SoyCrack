@@ -77,7 +77,7 @@
 				<div class="content-poweredby">
 					<div class="powered-txt">Powered By</div>
 					<div class="logo-powered">
-						<a href="http://mediatrends.cl/">
+						<a href="http://mediatrends.cl/" target="_blank"> 
 							<svg viewBox="0 0 792 656.856">
 								<use xlink:href="#mediatrends-logo" />
 							</svg>
