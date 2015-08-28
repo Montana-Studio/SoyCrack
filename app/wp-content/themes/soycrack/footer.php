@@ -41,6 +41,7 @@
 						<h3><?php the_field('encabezado_popups'); ?></h3>
 						<h2><?php the_title(); ?></h2> 
 						<div class="body-popups">
+
 							<div class="box-popups box-arrow">
 								<svg viewBox="0 0 322.094 165.000">
 									<g id="content_arrow_pop">
@@ -61,16 +62,30 @@
 									</div>
 								</div>
 							</div>
+
 							<div class="box-popups box-form">
 								<div><?php echo do_shortcode('[newsletter_signup_form id=0]'); ?></div>
 							</div>
+
 						</div>
 
 					</article>
 					
 				<?php endwhile; ?>
-				
 			</div>
+			<div class="newsletter-footer">
+				<div class="content-poweredby">
+					<div class="powered-txt">Powered By</div>
+					<div class="logo-powered">
+						<a href="http://mediatrends.cl/">
+							<svg viewBox="0 0 792 656.856">
+								<use xlink:href="#mediatrends-logo" />
+							</svg>
+						</a>
+					</div>
+				</div>
+			</div>
+			
 		</div>
 		
 		<script type="text/javascript">if(typeof wabtn4fg==="undefined"){wabtn4fg=1;h=document.head||document.getElementsByTagName("head")[0],s=document.createElement("script");s.type="text/javascript";s.src="<?php echo get_template_directory_uri(); ?>/js/whatsapp-button.js";h.appendChild(s);}</script>

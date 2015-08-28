@@ -97,12 +97,14 @@
 	     {
 	        $('.bg-newsletter').show();
 	        $('.newsletter-new-suscribe').show();
+	         $('.content-poweredby').show(); 
 	     }
 	 });
 
 	$('.close-button').click(function(){
 	    $('.newsletter-new-suscribe').remove();
 	    $('.bg-newsletter').remove();
+	    $('.content-poweredby').remove();
 	});
 		
 })(jQuery, this);

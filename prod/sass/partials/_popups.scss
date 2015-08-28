@@ -1,4 +1,4 @@
-@-webkit-keyframes movenews {
+@keyframes movenews {
     0% {
 		@include transform( perspective(800px) rotateX(-90deg));
         opacity: 1;
@@ -14,6 +14,16 @@
          @include transform( perspective(800px) rotateX(0deg));
          opacity: 1;
     }
+}
+@keyframes showDelay {
+	0% {
+		visibility: hidden;
+		opacity: 0;
+	}
+	50% {
+		visibility: visible;
+		opacity: 1;
+	}
 }
 .bg-newsletter {
 	@include gridle(12);
@@ -43,9 +53,9 @@
     display: none;
     .content-popups {
     	@include gridle(5, desktopess);  
-    	//@include gridle(7, notebook-min);
-    	//@include gridle(9, tabless);
-    	//@include gridle(11, phoness);
+    	@include gridle(7, notebook-min);
+    	@include gridle(9, tabless-min);
+    	@include gridle(11, phoness-min phoness);
 		@include gridle_float(none);
 		height:auto;
 		background:{color:#FFF;position: bottom;repeat: no-repeat;size: cover;position-y: 5px;}
@@ -55,9 +65,13 @@
 		position: relative;
 		padding:{top:30px;right:0;bottom:45px;left:0;}
 		background-image: url(../img/bg-popups.svg);
-		/*@include gridle_state(phoness) {}
+		@include gridle_state(phoness-min phoness) {
 		    padding:{top: 12px;bottom:13px;}
-		    margin:{top:25px;}*/
+		    margin:{top:25px;}
+		}    
+		@include gridle_state(phoness-min) {
+			padding:{top:17px;bottom: 17px;}
+		}
 		article {
 			@include gridle_state(phoness) {
 				overflow: hidden;
@@ -74,6 +88,12 @@
 			top:-20px;
 			display: table;
 			cursor:pointer;
+			@include gridle_state(phoness-min) {
+				width: 30px;
+				height: 30px;
+				right: -16px;
+    			top: -12px;
+			}
 			i {
 				color:#FFF;
 				display: table-cell;
@@ -91,11 +111,18 @@
 				font:{size: 46px;}
     			line-height: 43px;
 			}
+			@include gridle_state(phoness-min) {
+				font:{size: 40px;}
+    			line-height: 37px;
+			}
 		}
 		h3 {
 			margin:{top:0; bottom:0;}
 			color:$_pricolor;
 			text:{transform:uppercase;}
+			@include gridle_state(phoness-min) {
+				font:{size: 13px;}
+			}
 		}
 		.body-popups {
 			@include gridle(12);
@@ -103,28 +130,44 @@
 			@include gridle_float(none);
 			padding:0;
 			margin:{top: 40px;}
+			display: inline-flex;
 			@include gridle_state(phoness) {
 				margin:{top: 6px;}
 			}
+			@include gridle_state(phoness-min) {
+				display: block;
+			}
 			.box-popups {
 				@include gridle(6);
-				@include gridle(12,phoness);
+				@include gridle(12, phoness-min);
 				padding:0;
 				display: inline-block;
 				&.box-arrow {
 					position: relative;
+					@include gridle_state(phoness-min) {
+						overflow: hidden;
+    					padding:0;
+    					width: 100%;
+					}
 					svg {
 						position: absolute;
+						height: 100%;
 						@include gridle_state(phoness) {
-							position: absolute;
-    						width: 130%;
+							height: 95%;
+						} 
+						@include gridle_state(phoness-min) {
+    						height: 170%;
 						}
 					}
 					.box-text-arrow {
 						@include gridle(10);
 						position: absolute;
+						height: 100%;
 						padding:{top:20px;right: 20px;bottom:0;left:20px;}
-						@include gridle_state(tabless) {
+						@include gridle_state(notebook-min) {
+							padding:{top:30px;left:20px;}
+						}
+						@include gridle_state(tabless-min) {
 							padding:{left:10px;right:10px;}
 						}
 						@include gridle_state(phoness) {
@@ -132,6 +175,9 @@
 							position: relative;
     						width: 100%;
     						text:{align: center;}
+						}
+						@include gridle_state(phoness-min) {
+							padding:{top: 10px;}
 						}
 						h4 {
 							margin:0;
@@ -149,12 +195,20 @@
 							@include gridle_state(notebook-min) {
 								font:{size:15px;}
 							}
+							@include gridle_state(phoness-min) {
+								display: none;
+							}
 						}
 						.social-newsl {
 							@include gridle(12);
 							@extend .no-paddings;
 							height: auto;
 							text:{align:center;}
+							position: absolute;
+							bottom: 5px;
+							@include gridle_state(phoness) {
+								position: relative;
+							}
 							.follow-text {
 								color:#FFF;
 								margin:{top:10px;bottom:5px;};
@@ -172,6 +226,10 @@
 									margin: 0 5px;
 									transition: transform 0.5s ease-in-out;
 									transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg);
+									@include gridle_state(phoness-min) {
+										height: 35px;
+										width: 35px;
+									}
 									a {
 										text:{align:center;}
 										height: inherit;
@@ -182,6 +240,9 @@
 											vertical-align: middle;
 											color: $_seccolor;
 											font:{size: 24px;}
+											@include gridle_state(phoness-min) {
+												font:{size: 18px;}
+											}	
 										}
 									}
 								}
@@ -191,6 +252,9 @@
 				}
 				&.box-form {
 					padding:{top:35px;right:20px;bottom:0;left:20px;}
+					@include gridle_state(phoness-min) {
+						padding:{top: 10px;}
+					}
 					.mymail-form  {
 						@extend .no-margins;
 						.mymail-wrapper {
@@ -267,6 +331,9 @@
 							}	
 						}	
 						.mymail-form-info {
+							@include gridle_state(phoness-min) {
+								font:{size: 14px !important;}
+							}
 							&.error {
 								border:0;
 								background: $_seccolor;
@@ -313,6 +380,49 @@
 				}
 			}
 		}
+    }
+    .newsletter-footer {
+    	@include gridle(5, desktopess);  
+    	@include gridle(7, notebook-min);
+    	@include gridle(9, tabless-min);
+    	@include gridle(11, phoness-min phoness);
+    	@include animation(showDelay 4.0s ease-in);
+    	@include gridle_float(none); 
+    	padding:0;
+    	display: block;
+    	margin:0 auto;
+	    .content-poweredby {
+			@include gridle(2, desktopess noteboo-min tabless-min);  
+			@include gridle(3, phoness);  
+			@include gridle(5, phoness-min);  
+			@include gridle_float(right);
+			padding: 0;
+			margin:0 auto;
+			display: table;
+			.powered-txt {
+				@include gridle(4);
+				@include gridle_float(none);
+				color: #FFF;
+				font:{size: 10px;}
+				display: table-cell;
+				vertical-align: middle;
+				padding: 0;
+				text:{align:right;}
+			}
+			.logo-powered {
+				@include gridle(2);
+				@include gridle_float(none);
+				padding:0;
+				display: table-cell;
+				vertical-align: middle;
+				svg {
+					width: 100%;
+					height: auto;
+					display: block;
+					fill: white;
+				} 
+			}
+		}	
     }
 }
 .animation-pop {
