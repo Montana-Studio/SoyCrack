@@ -1,6 +1,6 @@
 // Import grid settings :
-//@import 'partials/grid-settings';
-@import '../../bower_components/gridle/sass/grid-settings';
+@import 'grid-settings';
+//@import '../../bower_components/gridle/sass/grid-settings';
 
 // Generate classes :
 @include gridle_generate_classes();
