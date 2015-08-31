@@ -67,13 +67,6 @@
 			</script>
 		</div>
 
-		<!-- intersitial_SOYCRACK_ALL out-of-page -->
-		<div id='div-gpt-ad-1424965564276-0-oop' style="display:none;">
-		<script type='text/javascript'>
-		googletag.display('div-gpt-ad-1424965564276-0-oop');
-		</script>
-		</div>
-
 		<header class="scroll-view nav-down">
 			
 			<main class="tools">

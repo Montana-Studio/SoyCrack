@@ -231,10 +231,16 @@ html{
 							iframe{
 								width:100%;
 								height: 640px;
+								@include gridle_state(phoness phoness-min){
+									height:240px;
+								}
 							}
 							video{
 								width:100%;
 								height: 640px;
+								@include gridle_state(phoness phoness-min){
+									height:240px;
+								}
 							}
 							.more-hide{
 								display: none;
@@ -242,6 +248,10 @@ html{
 							a{
 								color:$_seccolor;
 								text:{decoration:none;}
+								img{
+									width:100%;
+									height: auto;
+								}
 							}
 							.share_btns{
 								margin:{top:20px;bottom:20px;}
@@ -353,10 +363,16 @@ html{
 							iframe{
 								width:100%;
 								height: 640px;
+								@include gridle_state(phoness phoness-min){
+									height:240px;
+								}
 							}
 							video{
 								width:100%;
 								height: 640px;
+								@include gridle_state(phoness phoness-min){
+									height:240px;
+								}
 							}
 							.more-hide{
 								display: none;
@@ -364,6 +380,10 @@ html{
 							a{
 								color:$_seccolor;
 								text:{decoration:none;}
+								img{
+									width:100%;
+									height: auto;
+								}
 							}
 						}
 						.meta-bottom-post{
