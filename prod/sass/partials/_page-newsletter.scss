@@ -1,0 +1,387 @@
+.content-sc-news {
+	@include gridle(12);
+	padding:0;
+	margin:{top:80px;bottom:20px;}
+	border:{bottom:1px solid #ccc;}
+	@include gridle_state(phoness-min) {
+		margin:{top: 20px;}
+	}
+	.image-contet-sc-nw {
+		background:{size:cover !important;}
+		height: 360px;
+		.logotipe-port {
+			@include gridle(10);	
+			@include gridle(12, phoness-min);	
+			@include gridle_state(phoness-min) {
+				text:{align:center;}
+			}
+			height: 100%;	
+			padding: 40px 20px;
+			background: -moz-linear-gradient(left,  rgba(24,187,155,1) 0%, rgba(125,185,232,0) 100%); /* FF3.6+ */
+			background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(24,187,155,1)), color-stop(100%,rgba(125,185,232,0))); /* Chrome,Safari4+ */
+			background: -webkit-linear-gradient(left,  rgba(24,187,155,1) 0%,rgba(125,185,232,0) 100%); /* Chrome10+,Safari5.1+ */
+			background: -o-linear-gradient(left,  rgba(24,187,155,1) 0%,rgba(125,185,232,0) 100%); /* Opera 11.10+ */
+			background: -ms-linear-gradient(left,  rgba(24,187,155,1) 0%,rgba(125,185,232,0) 100%); /* IE10+ */
+			background: linear-gradient(to right,  rgba(24,187,155,1) 0%,rgba(125,185,232,0) 100%); /* W3C */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#18bb9b', endColorstr='#007db9e8',GradientType=1 ); /* IE6-9 */
+			.logo {
+				@include gridle(3);
+				@include gridle(5, tabless-min);
+				@include gridle(8, phoness-min);
+				@include gridle_state(phoness-min) {
+					 float: none;
+				}
+				&.logo-unsubscribe {
+					@include gridle(4);
+					@include gridle(8, phoness-min);
+				}
+				svg {
+					width: 100%;
+					height: auto;
+					display: block;
+				}
+			}
+			.newsletter-title {
+				clear: both;
+				font:{size: 40px;style:italic;weight:bold;}
+				text:{transform: uppercase;}
+				color: #fff;
+				padding:{left: 8px;}
+    			line-height: 42px;
+    			@include gridle_state(tabless-md) {
+    				font:{size: 45px;}
+    				line-height: 46px;
+    			}
+    			&.title-unsubscribe {
+    				@include gridle(4);
+    				@include gridle(8, phoness-min);
+    				text:{align:center;}
+    			}
+			}
+			.unsubscribe-form-sc {
+				@include gridle(4);    
+				@include gridle(6, tabless-min);    
+				@include gridle(12, phoness-min);    
+				clear: both;
+    			margin:{top: 20px;}
+    			@include gridle_state(phoness-min){
+					text:{align:left;}
+				}
+				.title {
+					font:{size: 22px;}
+					color:#fff;
+					text:{align:left;}
+					text:{align: center;}
+					@include gridle_state(phoness-min){
+						text:{align:left;}
+					}
+				}
+				.form-unsubscribe {
+					.mymail-wrapper {
+						&.mymail-email-wrapper {
+							@extend .no-paddings;
+							margin:{bottom:5px;}
+							label {
+								color:#fff;
+								font:{size: 15px;}
+
+								span {
+									&.required {
+										color:$_seccolor !important;
+									}
+								}
+							}
+							input {
+								outline: none;
+								border:1px solid #fff;
+								background: none;
+								padding: 6px 0;
+								@include placeholder {
+									padding:2px;
+									color:#fff;
+								}
+							}	
+						}	
+						&.mymail-firstname-wrapper {
+							@extend .no-paddings;
+							margin:{bottom:10px;}
+							label {
+								color:$_pricolor;
+								font:{size: 15px;}
+								span {
+									&.required {
+										color:$_seccolor !important;
+									}
+								}
+							}
+							input {
+								outline: none;
+								@include placeholder {
+									padding:2px;
+									color: $_pricolor;
+								}
+							}
+						}
+						&.mymail-submit-wrapper {
+							&.form-submit {
+								width: 127px;
+    							height: 37px;
+								@extend .no-paddings;
+								@include gridle_float(none);
+								margin:0 auto;
+								display: block;
+								float:left;
+								input {
+									@include gridle(12);
+									@extend .no-margins;
+									@include gridle_float(none);
+									background-image: url('../img/btn-soycrack.svg');
+									border: 0;
+									height: inherit;
+									font:{size: 14px;}
+									text:{align: left;}
+									padding: 0 5px !important; 
+									outline: none;
+									background:{size: cover;}
+								}
+								span {
+									display: none;
+									visibility: hidden;
+								}
+							}	
+						}	
+					}	
+					.mymail-form-info {
+						&.error {
+							border:solid #ccc 1px;
+							background: none;
+							border-radius:0;
+							text:{align:center;}
+							p {
+								@extend .no-margins;
+								color:$_seccolor;
+							}
+							ul {
+								@extend .no-margins;
+								@extend .no-paddings;
+								li {
+									color:$_seccolor !important;
+									font:{weight:bold;}
+								}
+							}
+						}
+						&.success {
+							border:solid #ccc 1px;
+							background: none;
+							border-radius:0;
+							text:{align:center;}
+							p {
+								@extend .no-margins;
+								color:$_seccolor;
+							}
+							ul {
+								@extend .no-margins;
+								@extend .no-paddings;
+								li {
+									color:$_seccolor !important;
+									font:{weight:bold;}
+								}
+							}
+						}
+					}	
+					.error {
+						.input {
+							border:solid 1px $_seccolor !important;
+						}
+					}
+				}
+			}
+		}
+		.logotipe-news {
+			@include gridle(8);
+			    float: none;
+				margin: 0 auto;
+				display: block;
+				padding:{top:135px;}
+			.logo {
+				@include gridle(6);
+				border-right: 1px solid #fff; 
+			}
+			.newsletter-title {
+				@include gridle(6);
+				color:#fff;
+				font:{size: 46px;}
+				text:{transform:uppercase;}
+				padding:{top: 8px;}
+			}
+		}
+	}
+	.content-news-txt {
+		@include gridle(12);	
+		text:{align:center;}
+		h1 {
+			margin:{top:25px;bottom:5px;}
+			@include gridle_state(phoness-min) {
+				font:{size: 20px;}
+			}
+			    
+		}
+		h2 {
+			margin:{bottom: 30px;}
+			@include gridle_state(tabless-md) {
+				margin:{top: 0;}
+			}
+			@include gridle_state(phoness-min) {
+				font:{size: 13px;}
+			}
+		}
+	}
+	.content-nuevo-suscriptor {
+		@include gridle(12);	
+		text:{align:left;}
+		border:1px solid #ccc;
+		border-top:none;
+		margin:{bottom: 35px;}
+		padding:16px;
+		h1 {
+			margin:{top:5px;bottom:5px;}
+			@include gridle_state(phoness-min) {
+				font:{size: 20px;}
+			}
+			    
+		}
+		h2 {
+			margin:{bottom: 30px;}
+			@include gridle_state(tabless-md) {
+				margin:{top: 0;}
+			}
+			@include gridle_state(phoness-min) {
+				font:{size: 13px;}
+			}
+		}
+		.formulario-nuevo {
+			.mymail-wrapper {
+				&.mymail-email-wrapper {
+					@include gridle(4);
+					@include gridle(12, phoness-min);
+					@extend .no-paddings;
+					margin:{bottom:5px;}
+					label {
+						color:$_pricolor;
+						font:{size: 15px;}
+						span {
+							&.required {
+								color:$_seccolor !important;
+							}
+						}
+					}
+					input {
+						outline: none;
+						border:1px solid #ccc;
+						padding: 7px 0;
+						@include placeholder {
+							padding:2px;
+							color: $_pricolor;
+						}
+					}	
+				}	
+				&.mymail-firstname-wrapper {
+					@include gridle(4);
+					@include gridle(12, phoness-min);
+					@extend .no-paddings;
+					margin:{bottom:10px;}
+					label {
+						color:$_pricolor;
+						font:{size: 15px;}
+						span {
+							&.required {
+								color:$_seccolor !important;
+							}
+						}
+					}
+					input {
+						outline: none;
+						border:1px solid #ccc;
+						padding: 7px 0;
+						@include placeholder {
+							padding:2px;
+							color: $_pricolor;
+						}
+					}
+				}
+				&.mymail-submit-wrapper {
+					&.form-submit {
+						width: 127px;
+						height: 37px;
+						@extend .no-paddings;
+						@include gridle_float(none);
+						margin:0 auto;
+						display: inline-block;
+						float:left;
+						margin:{top: 24px;}
+						input {
+							@include gridle(12);
+							@extend .no-margins;
+							@include gridle_float(none);
+							background-image: url('../img/btn-soycrack.svg');
+							border: 0;
+							height: inherit;
+							font:{size: 14px;}
+							text:{align: left;}
+							padding: 0 5px !important; 
+							outline: none;
+							background:{size: cover;}
+						}
+						span {
+							display: none;
+							visibility: hidden;
+						}
+					}		
+				}	
+			}	
+			.mymail-form-info {
+				&.error {
+					border:solid #ccc 1px;
+					background: none;
+					border-radius:0;
+					text:{align:center;}
+					p {
+						@extend .no-margins;
+						color:$_seccolor;
+					}
+					ul {
+						@extend .no-margins;
+						@extend .no-paddings;
+						li {
+							color:$_seccolor !important;
+							font:{weight:bold;}
+						}
+					}
+				}
+				&.success {
+					border:solid #ccc 1px;
+					background: none;
+					border-radius:0;
+					text:{align:center;}
+					p {
+						@extend .no-margins;
+						color:$_seccolor;
+					}
+					ul {
+						@extend .no-margins;
+						@extend .no-paddings;
+						li {
+							color:$_seccolor !important;
+							font:{weight:bold;}
+						}
+					}
+				}
+			}	
+			.error {
+				.input {
+					border:solid 1px $_seccolor !important;
+				}
+			}
+		}
+	}
+}
