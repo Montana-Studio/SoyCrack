@@ -86,11 +86,11 @@
 	
 	<section class="wrapper-index">
 
-			<?php // $query = new WP_Query('posts_per_page=3'); ?>
+			<?php  $query = new WP_Query('posts_per_page=10&category_name=destacados'); ?>
 
-			<?php //if ( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post(); ?>
+			<?php if ( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post(); ?>
 			
-			<?php if (have_posts()): while (have_posts()) : the_post(); ?>
+			<?php //if (have_posts()): while (have_posts()) : the_post(); ?>
 
 				<article id="post-<?php the_ID(); ?>" <?php post_class('postes'); ?>>
 					<main class="post-content">
