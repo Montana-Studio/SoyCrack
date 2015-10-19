@@ -6,7 +6,7 @@
 <div class="content-sc-news">
 	<div class="image-contet-sc-nw" style="background:url('<?php echo get_template_directory_uri(); ?>/img/bg-pagenewsletter.jpg?>');">
 		<div class="logotipe-news">
-				<div class="logo">
+				<div class="logo logo-suscribe-sc"> 
 					<a href="<?php echo home_url(); ?>">
 						<svg viewBox="0 0 227.167 46.645" class="logo-nomr">
 							<use xlink:href="#svg_logosc-white" />

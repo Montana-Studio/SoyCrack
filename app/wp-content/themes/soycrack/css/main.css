@@ -3203,7 +3203,8 @@ html body {
             .content-sc-news .image-contet-sc-nw .logotipe-port .unsubscribe-form-sc .title {
               text-align: left; } }
         .content-sc-news .image-contet-sc-nw .logotipe-port .unsubscribe-form-sc .form-unsubscribe .mymail-wrapper.mymail-email-wrapper {
-          margin-bottom: 5px; }
+          margin-bottom: 5px;
+          color: #fff; }
           .content-sc-news .image-contet-sc-nw .logotipe-port .unsubscribe-form-sc .form-unsubscribe .mymail-wrapper.mymail-email-wrapper label {
             color: #fff;
             font-size: 15px; }
@@ -3213,7 +3214,8 @@ html body {
             outline: none;
             border: 1px solid #fff;
             background: none;
-            padding: 6px 0; }
+            padding: 6px 0;
+            color: #fff; }
             .content-sc-news .image-contet-sc-nw .logotipe-port .unsubscribe-form-sc .form-unsubscribe .mymail-wrapper.mymail-email-wrapper input::-webkit-input-placeholder {
               padding: 2px;
               color: #fff; }
@@ -3234,7 +3236,8 @@ html body {
             .content-sc-news .image-contet-sc-nw .logotipe-port .unsubscribe-form-sc .form-unsubscribe .mymail-wrapper.mymail-firstname-wrapper label span.required {
               color: #18BB9B !important; }
           .content-sc-news .image-contet-sc-nw .logotipe-port .unsubscribe-form-sc .form-unsubscribe .mymail-wrapper.mymail-firstname-wrapper input {
-            outline: none; }
+            outline: none;
+            color: #fff; }
             .content-sc-news .image-contet-sc-nw .logotipe-port .unsubscribe-form-sc .form-unsubscribe .mymail-wrapper.mymail-firstname-wrapper input::-webkit-input-placeholder {
               padding: 2px;
               color: #333; }
@@ -3280,9 +3283,10 @@ html body {
           border: solid #ccc 1px;
           background: none;
           border-radius: 0;
-          text-align: center; }
+          text-align: center;
+          color: #fff; }
           .content-sc-news .image-contet-sc-nw .logotipe-port .unsubscribe-form-sc .form-unsubscribe .mymail-form-info.error p {
-            color: #18BB9B; }
+            color: #fff; }
           .content-sc-news .image-contet-sc-nw .logotipe-port .unsubscribe-form-sc .form-unsubscribe .mymail-form-info.error ul li {
             color: #18BB9B !important;
             font-weight: bold; }
@@ -3292,9 +3296,9 @@ html body {
           border-radius: 0;
           text-align: center; }
           .content-sc-news .image-contet-sc-nw .logotipe-port .unsubscribe-form-sc .form-unsubscribe .mymail-form-info.success p {
-            color: #18BB9B; }
+            color: #fff; }
           .content-sc-news .image-contet-sc-nw .logotipe-port .unsubscribe-form-sc .form-unsubscribe .mymail-form-info.success ul li {
-            color: #18BB9B !important;
+            color: #fff !important;
             font-weight: bold; }
         .content-sc-news .image-contet-sc-nw .logotipe-port .unsubscribe-form-sc .form-unsubscribe .error .input {
           border: solid 1px #18BB9B !important; }
@@ -3312,6 +3316,12 @@ html body {
         .content-sc-news .image-contet-sc-nw .logotipe-news {
           padding-left: 0;
           padding-right: 0; } }
+      @media screen and (max-width: 480px) {
+        .content-sc-news .image-contet-sc-nw .logotipe-news {
+          width: 91.66667%; } }
+      @media screen and (max-width: 480px) {
+        .content-sc-news .image-contet-sc-nw .logotipe-news {
+          padding-top: 103px; } }
       .content-sc-news .image-contet-sc-nw .logotipe-news .logo {
         float: left;
         direction: ltr;
@@ -3323,6 +3333,9 @@ html body {
           .content-sc-news .image-contet-sc-nw .logotipe-news .logo {
             padding-left: 0;
             padding-right: 0; } }
+        @media screen and (max-width: 480px) {
+          .content-sc-news .image-contet-sc-nw .logotipe-news .logo {
+            width: 100%; } }
       .content-sc-news .image-contet-sc-nw .logotipe-news .newsletter-title {
         float: left;
         direction: ltr;
@@ -3337,6 +3350,13 @@ html body {
           .content-sc-news .image-contet-sc-nw .logotipe-news .newsletter-title {
             padding-left: 0;
             padding-right: 0; } }
+        @media screen and (max-width: 480px) {
+          .content-sc-news .image-contet-sc-nw .logotipe-news .newsletter-title {
+            width: 100%; } }
+        @media screen and (max-width: 480px) {
+          .content-sc-news .image-contet-sc-nw .logotipe-news .newsletter-title {
+            text-align: center;
+            line-height: 40px; } }
   .content-sc-news .content-news-txt {
     float: left;
     direction: ltr;
@@ -3393,7 +3413,8 @@ html body {
       padding-left: 10px;
       padding-right: 10px;
       width: 33.33333%;
-      margin-bottom: 5px; }
+      margin-bottom: 5px;
+      padding: 0 !important; }
       @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
         .content-sc-news .content-nuevo-suscriptor .formulario-nuevo .mymail-wrapper.mymail-email-wrapper {
           padding-left: 0;
@@ -3436,6 +3457,9 @@ html body {
       @media screen and (max-width: 480px) {
         .content-sc-news .content-nuevo-suscriptor .formulario-nuevo .mymail-wrapper.mymail-firstname-wrapper {
           width: 100%; } }
+      @media screen and (max-width: 480px) {
+        .content-sc-news .content-nuevo-suscriptor .formulario-nuevo .mymail-wrapper.mymail-firstname-wrapper {
+          padding: 0 !important; } }
       .content-sc-news .content-nuevo-suscriptor .formulario-nuevo .mymail-wrapper.mymail-firstname-wrapper label {
         color: #333;
         font-size: 15px; }
@@ -3465,6 +3489,9 @@ html body {
       display: inline-block;
       float: left;
       margin-top: 24px; }
+      @media screen and (max-width: 480px) {
+        .content-sc-news .content-nuevo-suscriptor .formulario-nuevo .mymail-wrapper.mymail-submit-wrapper.form-submit {
+          margin-top: 5px; } }
       .content-sc-news .content-nuevo-suscriptor .formulario-nuevo .mymail-wrapper.mymail-submit-wrapper.form-submit input {
         float: left;
         direction: ltr;

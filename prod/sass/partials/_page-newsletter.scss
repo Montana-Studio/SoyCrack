@@ -81,6 +81,7 @@
 						&.mymail-email-wrapper {
 							@extend .no-paddings;
 							margin:{bottom:5px;}
+							color: #fff;
 							label {
 								color:#fff;
 								font:{size: 15px;}
@@ -96,6 +97,7 @@
 								border:1px solid #fff;
 								background: none;
 								padding: 6px 0;
+								color:#fff;
 								@include placeholder {
 									padding:2px;
 									color:#fff;
@@ -116,6 +118,7 @@
 							}
 							input {
 								outline: none;
+								color:#fff;
 								@include placeholder {
 									padding:2px;
 									color: $_pricolor;
@@ -157,9 +160,10 @@
 							background: none;
 							border-radius:0;
 							text:{align:center;}
+							color:#fff;
 							p {
 								@extend .no-margins;
-								color:$_seccolor;
+								color:#fff;
 							}
 							ul {
 								@extend .no-margins;
@@ -177,13 +181,13 @@
 							text:{align:center;}
 							p {
 								@extend .no-margins;
-								color:$_seccolor;
+								color:#fff;
 							}
 							ul {
 								@extend .no-margins;
 								@extend .no-paddings;
 								li {
-									color:$_seccolor !important;
+									color:#fff !important;
 									font:{weight:bold;}
 								}
 							}
@@ -199,12 +203,17 @@
 		}
 		.logotipe-news {
 			@include gridle(8);
+			@include gridle(11, phoness-min);
 			    float: none;
 				margin: 0 auto;
 				display: block;
 				padding:{top:135px;}
+				@include gridle_state(phoness-min) {
+					padding:{top: 103px;}
+				}
 			.logo {
 				@include gridle(6);
+				@include gridle(12, phoness-min); 
 				border-right: 1px solid #fff; 
 			}
 			.newsletter-title {
@@ -213,6 +222,11 @@
 				font:{size: 46px;}
 				text:{transform:uppercase;}
 				padding:{top: 8px;}
+				@include gridle(12, phoness-min); 
+				@include gridle_state(phoness-min) {
+					text:{align: center;}
+					line-height: 40px;
+				}
 			}
 		}
 	}
@@ -266,6 +280,7 @@
 					@include gridle(12, phoness-min);
 					@extend .no-paddings;
 					margin:{bottom:5px;}
+					padding: 0 !important; 
 					label {
 						color:$_pricolor;
 						font:{size: 15px;}
@@ -290,6 +305,9 @@
 					@include gridle(12, phoness-min);
 					@extend .no-paddings;
 					margin:{bottom:10px;}
+					@include gridle_state(phoness-min) {
+						padding: 0 !important; 
+					}
 					label {
 						color:$_pricolor;
 						font:{size: 15px;}
@@ -319,6 +337,9 @@
 						display: inline-block;
 						float:left;
 						margin:{top: 24px;}
+						@include gridle_state(phoness-min) {
+							margin:{top: 5px;}
+						}
 						input {
 							@include gridle(12);
 							@extend .no-margins;

@@ -7,7 +7,7 @@
 	<div class="image-contet-sc-nw" style="background:url('<?php echo get_template_directory_uri(); ?>/img/bg-pages-newsletter.jpg?>');">
 		<div class="logotipe-port">
 			<!-- logo -->
-				<div class="logo">
+				<div class="logo"> 
 					<a href="<?php echo home_url(); ?>">
 						<svg viewBox="0 0 142.391 150" class="logo-nomr">
 							<use xlink:href="#svg_logosc-news" />
