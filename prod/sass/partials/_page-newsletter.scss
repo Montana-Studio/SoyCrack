@@ -1,5 +1,6 @@
 .content-sc-news {
 	@include gridle(12);
+	@include gridle_float(none);
 	padding:0;
 	margin:{top:80px;bottom:20px;}
 	border:{bottom:1px solid #ccc;}
@@ -9,6 +10,7 @@
 	.image-contet-sc-nw {
 		background:{size:cover !important;}
 		height: 360px;
+		position: relative;
 		.logotipe-port {
 			@include gridle(10);	
 			@include gridle(12, phoness-min);	
@@ -203,16 +205,20 @@
 		}
 		.logotipe-news {
 			@include gridle(8);
+			@include gridle(12, tabless-min);
 			@include gridle(11, phoness-min);
-			    float: none;
-				margin: 0 auto;
-				display: block;
-				padding:{top:135px;}
-				@include gridle_state(phoness-min) {
-					padding:{top: 103px;}
-				}
+			position: absolute;
+			z-index: 2;
+		    float: none;
+			margin: 0 auto;
+			display: block;
+			padding:{top:135px;}
+			@include gridle_state(phoness-min) {
+				padding:{top: 103px;}
+			}
 			.logo {
 				@include gridle(6);
+				@include gridle(6, tabless-min);
 				@include gridle(12, phoness-min); 
 				border-right: 1px solid #fff; 
 			}
@@ -228,6 +234,14 @@
 					line-height: 40px;
 				}
 			}
+		}
+		.fondo-color-bg {
+			background: {color:$_seccolor;}
+			position: relative;
+			@include gridle(12);
+			height: 100%;
+			z-index: 1; 
+			opacity: 0.7;
 		}
 	}
 	.content-news-txt {

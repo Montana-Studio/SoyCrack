@@ -4,7 +4,7 @@
 <!-- CONFIRMACION EXITOSA -->
 
 <div class="content-sc-news">
-	<div class="image-contet-sc-nw" style="background:url('<?php echo get_template_directory_uri(); ?>/img/bg-pagenewsletter.jpg?>');">
+	<div class="image-contet-sc-nw" style="background:url('<?php echo get_template_directory_uri(); ?>/img/bg-pagenewsletter-ball.jpg?>');">
 		<div class="logotipe-news">
 				<div class="logo logo-suscribe-sc"> 
 					<a href="<?php echo home_url(); ?>">
@@ -14,8 +14,8 @@
 					</a>
 				</div>
 				<div class="newsletter-title">newsletter</div>
-
 		</div>
+		<div class="fondo-color-bg"></div>
 	</div>
 	<div class="content-nuevo-suscriptor">
 		<h1>SUSCRIBIRSE</h1>

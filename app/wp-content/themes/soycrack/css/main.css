@@ -25,7 +25,7 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-.grid-1on5, .grid-0, .grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10, .grid-11, .grid-12, .grid-mobile-1on5, .grid-mobile-0, .grid-mobile-1, .grid-mobile-2, .grid-mobile-3, .grid-mobile-4, .grid-mobile-5, .grid-mobile-6, .grid-mobile-7, .grid-mobile-8, .grid-mobile-9, .grid-mobile-10, .grid-mobile-11, .grid-mobile-12, .grid-tablet-1on5, .grid-tablet-0, .grid-tablet-1, .grid-tablet-2, .grid-tablet-3, .grid-tablet-4, .grid-tablet-5, .grid-tablet-6, .grid-tablet-7, .grid-tablet-8, .grid-tablet-9, .grid-tablet-10, .grid-tablet-11, .grid-tablet-12, .grid-ipad-landscape-1on5, .grid-ipad-landscape-0, .grid-ipad-landscape-1, .grid-ipad-landscape-2, .grid-ipad-landscape-3, .grid-ipad-landscape-4, .grid-ipad-landscape-5, .grid-ipad-landscape-6, .grid-ipad-landscape-7, .grid-ipad-landscape-8, .grid-ipad-landscape-9, .grid-ipad-landscape-10, .grid-ipad-landscape-11, .grid-ipad-landscape-12, html body .wrapper .content-destacado .destacados, html body .wrapper .all-content .wrapper-index, html body .wrapper .all-content .wrapper-index .postes, html body .wrapper .all-content .wrapper-index .pagination, html body .wrapper .wrapper-inner, html body .wrapper .wrapper-inner .wrapper-normal-post .imagen-single, html body .wrapper .wrapper-inner .wrapper-normal-post .content, html body .wrapper .wrapper-inner .wrapper-normal-post .wrapper, html body .wrapper .wrapper-inner .wrapper-normal-post .content .meta-bottom-post, html body .wrapper .wrapper-inner .wrapper-normal-post .wrapper .meta-bottom-post, html body .wrapper .wrapper-inner .wrapper-estandar-post .tit-inner-content, html body .wrapper .wrapper-inner .wrapper-gallery-post .tit-inner-content, html body .wrapper .wrapper-inner .wrapper-estandar-post .imagen-single, html body .wrapper .wrapper-inner .wrapper-gallery-post .imagen-single, html body .wrapper .wrapper-inner .wrapper-estandar-post .content, html body .wrapper .wrapper-inner .wrapper-gallery-post .content, html body .wrapper .wrapper-inner .wrapper-estandar-post .wrapper, html body .wrapper .wrapper-inner .wrapper-gallery-post .wrapper, html body .wrapper .wrapper-inner .wrapper-estandar-post .content .share_btns, html body .wrapper .wrapper-inner .wrapper-gallery-post .content .share_btns, html body .wrapper .wrapper-inner .wrapper-estandar-post .wrapper .share_btns, html body .wrapper .wrapper-inner .wrapper-gallery-post .wrapper .share_btns, html body .wrapper .wrapper-inner .wrapper-estandar-post .content .meta-bottom-post, html body .wrapper .wrapper-inner .wrapper-gallery-post .content .meta-bottom-post, html body .wrapper .wrapper-inner .wrapper-estandar-post .wrapper .meta-bottom-post, html body .wrapper .wrapper-inner .wrapper-gallery-post .wrapper .meta-bottom-post, html body .wrapper .wrapper-inner .wrapper-gallery-post .content .parrafo, html body .wrapper .wrapper-inner .wrapper-gallery-post .wrapper .parrafo, html body .wrapper .sidebar, html body .wrapper .sidebar .popular-posts .wpp-list li, html body .wrapper .sidebar .sidebar-newsletter-sc .form-news .mymail-form .mymail-wrapper.mymail-submit-wrapper.form-submit input, html body .wrapper .footer, html body.contacto .wrapper .pages-template .cont-contact, html body.contacto .wrapper .pages-template .cont-form, .swipe-all .swipe-wrap .content-slide, .header .tools, .scroll-view .tools, .header .tools .btn-menu, .scroll-view .tools .btn-menu, .header .tools .logo_mobile-norm, .scroll-view .tools .logo_mobile-norm, .header .tools .social, .scroll-view .tools .social, .scroll-view .logo, .scroll-view .nav, .scroll-view .social, .unsuscribe-content, .content-sc-news, .content-sc-news .image-contet-sc-nw .logotipe-port, .content-sc-news .image-contet-sc-nw .logotipe-port .logo, .content-sc-news .image-contet-sc-nw .logotipe-port .logo.logo-unsubscribe, .content-sc-news .image-contet-sc-nw .logotipe-port .newsletter-title.title-unsubscribe, .content-sc-news .image-contet-sc-nw .logotipe-port .unsubscribe-form-sc, .content-sc-news .image-contet-sc-nw .logotipe-port .unsubscribe-form-sc .form-unsubscribe .mymail-wrapper.mymail-submit-wrapper.form-submit input, .content-sc-news .image-contet-sc-nw .logotipe-news, .content-sc-news .image-contet-sc-nw .logotipe-news .logo, .content-sc-news .image-contet-sc-nw .logotipe-news .newsletter-title, .content-sc-news .content-news-txt, .content-sc-news .content-nuevo-suscriptor, .content-sc-news .content-nuevo-suscriptor .formulario-nuevo .mymail-wrapper.mymail-email-wrapper, .content-sc-news .content-nuevo-suscriptor .formulario-nuevo .mymail-wrapper.mymail-firstname-wrapper, .content-sc-news .content-nuevo-suscriptor .formulario-nuevo .mymail-wrapper.mymail-submit-wrapper.form-submit input, .bg-newsletter, .newsletter-new-suscribe, .newsletter-new-suscribe .content-popups, .newsletter-new-suscribe .content-popups .body-popups, .newsletter-new-suscribe .content-popups .body-popups .box-popups, .newsletter-new-suscribe .content-popups .body-popups .box-popups.box-arrow .box-text-arrow, .newsletter-new-suscribe .content-popups .body-popups .box-popups.box-arrow .box-text-arrow .social-newsl, .newsletter-new-suscribe .newsletter-footer, .newsletter-new-suscribe .newsletter-footer .content-poweredby, .newsletter-new-suscribe .newsletter-footer .content-poweredby .powered-txt, .newsletter-new-suscribe .newsletter-footer .content-poweredby .logo-powered {
+.grid-1on5, .grid-0, .grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10, .grid-11, .grid-12, .grid-mobile-1on5, .grid-mobile-0, .grid-mobile-1, .grid-mobile-2, .grid-mobile-3, .grid-mobile-4, .grid-mobile-5, .grid-mobile-6, .grid-mobile-7, .grid-mobile-8, .grid-mobile-9, .grid-mobile-10, .grid-mobile-11, .grid-mobile-12, .grid-tablet-1on5, .grid-tablet-0, .grid-tablet-1, .grid-tablet-2, .grid-tablet-3, .grid-tablet-4, .grid-tablet-5, .grid-tablet-6, .grid-tablet-7, .grid-tablet-8, .grid-tablet-9, .grid-tablet-10, .grid-tablet-11, .grid-tablet-12, .grid-ipad-landscape-1on5, .grid-ipad-landscape-0, .grid-ipad-landscape-1, .grid-ipad-landscape-2, .grid-ipad-landscape-3, .grid-ipad-landscape-4, .grid-ipad-landscape-5, .grid-ipad-landscape-6, .grid-ipad-landscape-7, .grid-ipad-landscape-8, .grid-ipad-landscape-9, .grid-ipad-landscape-10, .grid-ipad-landscape-11, .grid-ipad-landscape-12, html body .wrapper .content-destacado .destacados, html body .wrapper .all-content .wrapper-index, html body .wrapper .all-content .wrapper-index .postes, html body .wrapper .all-content .wrapper-index .pagination, html body .wrapper .wrapper-inner, html body .wrapper .wrapper-inner .wrapper-normal-post .imagen-single, html body .wrapper .wrapper-inner .wrapper-normal-post .content, html body .wrapper .wrapper-inner .wrapper-normal-post .wrapper, html body .wrapper .wrapper-inner .wrapper-normal-post .content .meta-bottom-post, html body .wrapper .wrapper-inner .wrapper-normal-post .wrapper .meta-bottom-post, html body .wrapper .wrapper-inner .wrapper-estandar-post .tit-inner-content, html body .wrapper .wrapper-inner .wrapper-gallery-post .tit-inner-content, html body .wrapper .wrapper-inner .wrapper-estandar-post .imagen-single, html body .wrapper .wrapper-inner .wrapper-gallery-post .imagen-single, html body .wrapper .wrapper-inner .wrapper-estandar-post .content, html body .wrapper .wrapper-inner .wrapper-gallery-post .content, html body .wrapper .wrapper-inner .wrapper-estandar-post .wrapper, html body .wrapper .wrapper-inner .wrapper-gallery-post .wrapper, html body .wrapper .wrapper-inner .wrapper-estandar-post .content .share_btns, html body .wrapper .wrapper-inner .wrapper-gallery-post .content .share_btns, html body .wrapper .wrapper-inner .wrapper-estandar-post .wrapper .share_btns, html body .wrapper .wrapper-inner .wrapper-gallery-post .wrapper .share_btns, html body .wrapper .wrapper-inner .wrapper-estandar-post .content .meta-bottom-post, html body .wrapper .wrapper-inner .wrapper-gallery-post .content .meta-bottom-post, html body .wrapper .wrapper-inner .wrapper-estandar-post .wrapper .meta-bottom-post, html body .wrapper .wrapper-inner .wrapper-gallery-post .wrapper .meta-bottom-post, html body .wrapper .wrapper-inner .wrapper-gallery-post .content .parrafo, html body .wrapper .wrapper-inner .wrapper-gallery-post .wrapper .parrafo, html body .wrapper .sidebar, html body .wrapper .sidebar .popular-posts .wpp-list li, html body .wrapper .sidebar .sidebar-newsletter-sc .form-news .mymail-form .mymail-wrapper.mymail-submit-wrapper.form-submit input, html body .wrapper .footer, html body.contacto .wrapper .pages-template .cont-contact, html body.contacto .wrapper .pages-template .cont-form, .swipe-all .swipe-wrap .content-slide, .header .tools, .scroll-view .tools, .header .tools .btn-menu, .scroll-view .tools .btn-menu, .header .tools .logo_mobile-norm, .scroll-view .tools .logo_mobile-norm, .header .tools .social, .scroll-view .tools .social, .scroll-view .logo, .scroll-view .nav, .scroll-view .social, .unsuscribe-content, .content-sc-news, .content-sc-news .image-contet-sc-nw .logotipe-port, .content-sc-news .image-contet-sc-nw .logotipe-port .logo, .content-sc-news .image-contet-sc-nw .logotipe-port .logo.logo-unsubscribe, .content-sc-news .image-contet-sc-nw .logotipe-port .newsletter-title.title-unsubscribe, .content-sc-news .image-contet-sc-nw .logotipe-port .unsubscribe-form-sc, .content-sc-news .image-contet-sc-nw .logotipe-port .unsubscribe-form-sc .form-unsubscribe .mymail-wrapper.mymail-submit-wrapper.form-submit input, .content-sc-news .image-contet-sc-nw .logotipe-news, .content-sc-news .image-contet-sc-nw .logotipe-news .logo, .content-sc-news .image-contet-sc-nw .logotipe-news .newsletter-title, .content-sc-news .image-contet-sc-nw .fondo-color-bg, .content-sc-news .content-news-txt, .content-sc-news .content-nuevo-suscriptor, .content-sc-news .content-nuevo-suscriptor .formulario-nuevo .mymail-wrapper.mymail-email-wrapper, .content-sc-news .content-nuevo-suscriptor .formulario-nuevo .mymail-wrapper.mymail-firstname-wrapper, .content-sc-news .content-nuevo-suscriptor .formulario-nuevo .mymail-wrapper.mymail-submit-wrapper.form-submit input, .bg-newsletter, .newsletter-new-suscribe, .newsletter-new-suscribe .content-popups, .newsletter-new-suscribe .content-popups .body-popups, .newsletter-new-suscribe .content-popups .body-popups .box-popups, .newsletter-new-suscribe .content-popups .body-popups .box-popups.box-arrow .box-text-arrow, .newsletter-new-suscribe .content-popups .body-popups .box-popups.box-arrow .box-text-arrow .social-newsl, .newsletter-new-suscribe .newsletter-footer, .newsletter-new-suscribe .newsletter-footer .content-poweredby, .newsletter-new-suscribe .newsletter-footer .content-poweredby .powered-txt, .newsletter-new-suscribe .newsletter-footer .content-poweredby .logo-powered {
   display: inline-block;
   min-height: 1px;
   -webkit-box-sizing: border-box;
@@ -3066,6 +3066,7 @@ html body {
   padding-left: 10px;
   padding-right: 10px;
   width: 100%;
+  float: none;
   padding: 0;
   margin-top: 80px;
   margin-bottom: 20px;
@@ -3079,7 +3080,8 @@ html body {
       margin-top: 20px; } }
   .content-sc-news .image-contet-sc-nw {
     background-size: cover !important;
-    height: 360px; }
+    height: 360px;
+    position: relative; }
     .content-sc-news .image-contet-sc-nw .logotipe-port {
       float: left;
       direction: ltr;
@@ -3308,6 +3310,8 @@ html body {
       padding-left: 10px;
       padding-right: 10px;
       width: 66.66667%;
+      position: absolute;
+      z-index: 2;
       float: none;
       margin: 0 auto;
       display: block;
@@ -3316,6 +3320,9 @@ html body {
         .content-sc-news .image-contet-sc-nw .logotipe-news {
           padding-left: 0;
           padding-right: 0; } }
+      @media screen and (max-width: 1024px) {
+        .content-sc-news .image-contet-sc-nw .logotipe-news {
+          width: 100%; } }
       @media screen and (max-width: 480px) {
         .content-sc-news .image-contet-sc-nw .logotipe-news {
           width: 91.66667%; } }
@@ -3333,6 +3340,9 @@ html body {
           .content-sc-news .image-contet-sc-nw .logotipe-news .logo {
             padding-left: 0;
             padding-right: 0; } }
+        @media screen and (max-width: 1024px) {
+          .content-sc-news .image-contet-sc-nw .logotipe-news .logo {
+            width: 50%; } }
         @media screen and (max-width: 480px) {
           .content-sc-news .image-contet-sc-nw .logotipe-news .logo {
             width: 100%; } }
@@ -3357,6 +3367,21 @@ html body {
           .content-sc-news .image-contet-sc-nw .logotipe-news .newsletter-title {
             text-align: center;
             line-height: 40px; } }
+    .content-sc-news .image-contet-sc-nw .fondo-color-bg {
+      background-color: #18BB9B;
+      position: relative;
+      float: left;
+      direction: ltr;
+      padding-left: 10px;
+      padding-right: 10px;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      opacity: 0.7; }
+      @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+        .content-sc-news .image-contet-sc-nw .fondo-color-bg {
+          padding-left: 0;
+          padding-right: 0; } }
   .content-sc-news .content-news-txt {
     float: left;
     direction: ltr;
